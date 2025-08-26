@@ -1,0 +1,11 @@
+
+:root{ --color-bg-1: rgba(59,130,246,0.08); }
+.navbar{background:#111;color:#fff !important}
+.nav-links a{color:#fff}
+.dropdown-menu{background:#111;border-color:rgba(255,255,255,0.06)}
+.mobile-menu-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.85);display:none;z-index:200;padding:20px;color:#fff}
+.mobile-menu-overlay.open{display:block}
+.mobile-menu-content{max-width:420px;margin:40px auto;background:transparent}
+.mobile-menu-close{background:transparent;border:none;color:#fff;font-size:20px}
+.mobile-nav-links{list-style:none;padding:0;margin-top:12px}
+.mobile-nav-links a{display:block;padding:12px 8px;color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.03)}
